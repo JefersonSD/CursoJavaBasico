@@ -22,7 +22,7 @@ public class Exer21 {
 		System.out.println("Informe \"G\" para gasolina e \"A\" para alcool:");
 		String tipoCompbustivel = t.next();
 		double desconto, total;
-		while (!tipoCompbustivel.equals("G") && !tipoCompbustivel.equals("A")) {
+		while (!tipoCompbustivel.equalsIgnoreCase("G") && !tipoCompbustivel.equalsIgnoreCase("A")) {
 			System.err.println("Caractere inválido!\ndigite \"G\" para gasolina ou \"A\" para alcool: ");
 			tipoCompbustivel = t.next();
 

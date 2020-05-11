@@ -38,10 +38,12 @@ public class Exer16 {
 			} else if (delta == 0) {
 				System.out.println("Fórmula de Delta: Δ = b2 – 4ac");
 				double raizReal = -valorB / (2 * valorA);
+				System.out.println("Valor Delta:" + delta);
 				System.out.println("A equação possui apenas uma raiz real: " + raizReal);
 
 			} else {
 				System.out.println("Fórmula de Delta: Δ = b2 – 4ac");
+				System.out.println("Valor Delta:" + delta);
 				double raizReal1 = (-valorB + Math.sqrt(delta)) / (2 * valorA);
 				double raizReal2 = (-valorB - Math.sqrt(delta)) / (2 * valorA);
 				System.out.println(" A equação possui duas raízes reais:\n" + raizReal1 + "\n" + raizReal2);

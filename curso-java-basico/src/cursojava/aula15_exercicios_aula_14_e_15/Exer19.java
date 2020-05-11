@@ -90,7 +90,7 @@ public class Exer19 {
 			
 			System.out.println(" Deseja realizar outra operação?:\n \"S\" [SIM]\n \"N\" [NÃO]");
 			 SimNao = t.next();
-			while(!SimNao.equals("S") && !SimNao.equals("N")) {
+			while(!SimNao.equalsIgnoreCase("S") && !SimNao.equalsIgnoreCase("S") ) {
 				
 				System.out.println("Opção inválida! Digite: \"S\" para [SIM] ou \"N\" para [NÃO] ");
 				SimNao = t.next();

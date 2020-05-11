@@ -18,10 +18,10 @@ public class Exer8 {
 		System.out.println("Informe o preço do 3º produto: ");
 		double preco3 = t.nextDouble();
 
-		if (preco1 < preco2 && preco1 < preco3) {
+		if (preco1 <= preco2 && preco1 <= preco3) {
 			System.out.println("Você deve comprar o produdo cujo preço é: " + preco1);
 
-		} else if (preco2 < preco1 && preco2 < preco3) {
+		} else if (preco2 <= preco1 && preco2 <= preco3) {
 			System.out.println("Você deve comprar o produdo cujo preço é: " + preco2);
 
 		} else {

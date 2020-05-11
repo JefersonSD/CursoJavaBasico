@@ -15,27 +15,27 @@ public class Exer9 {
 		System.out.println("Informe o 3º número: ");
 		double n3 = t.nextDouble();
 
-		if (n1 > n2 && n1 > n3 && n2 > n3) {
+		if (n1 >= n2 && n1 >= n3 && n2 >= n3) {
 			System.out.println(" - n1 : " + n1);
 			System.out.println(" - n2 : " + n2);
 			System.out.println(" - n3 : " + n3);
 
-		} else if (n1 > n2 && n1 > n3 && !(n2 > n3)) {
+		} else if (n1 >= n2 && n1 >= n3 && !(n2 >= n3)) {
 			System.out.println(" - n1 : " + n1);
 			System.out.println(" - n3 : " + n3);
 			System.out.println(" - n2 : " + n2);
 
-		} else if (n2 > n1 && n2 > n3 && n3 > n1) {
+		} else if (n2 >= n1 && n2 >= n3 && n3 >= n1) {
 			System.out.println(" - n2 : " + n2);
 			System.out.println(" - n3 : " + n3);
 			System.out.println(" - n1 : " + n1);
 
-		} else if (n2 > n1 && n2 > n3 && !(n3 > n1)) {
+		} else if (n2 >= n1 && n2 >= n3 && !(n3 >= n1)) {
 			System.out.println(" - n2 : " + n2);
 			System.out.println(" - n1 : " + n1);
 			System.out.println(" - n3 : " + n3);
 
-		} else if (n3 > n1 && n3 > n2 && n1 > n2) {
+		} else if (n3 >= n1 && n3 >= n2 && n1 >= n2) {
 			System.out.println(" - n3 : " + n3);
 			System.out.println(" - n1 : " + n1);
 			System.out.println(" - n2 : " + n2);

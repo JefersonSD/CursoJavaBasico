@@ -20,7 +20,7 @@ public class Exer20 {
 		 */
 
 		Scanner t = new Scanner(System.in);
-		System.err.println("Responda \"SIM\" ou \"NÃO\"\n\n");
+		System.err.println("Responda \"SIM\" ou \"NÃO\"\n");
 		System.out.println("Telefonou para a vítima?:");
 		String pergunta1 = t.next();
 		System.out.println("Esteve no local do crime?:");
@@ -34,19 +34,19 @@ public class Exer20 {
 
 		int controle = 0;
 
-		if (pergunta1.equals("SIM")) {
+		if (pergunta1.equalsIgnoreCase("SIM")) {
 			controle++;
 		}
-		if (pergunta2.equals("SIM")) {
+		if (pergunta2.equalsIgnoreCase("SIM")) {
 			controle++;
 		}
-		if (pergunta3.equals("SIM")) {
+		if (pergunta3.equalsIgnoreCase("SIM")) {
 			controle++;
 		}
-		if (pergunta4.equals("SIM")) {
+		if (pergunta4.equalsIgnoreCase("SIM")) {
 			controle++;
 		}
-		if (pergunta5.equals("SIM")) {
+		if (pergunta5.equalsIgnoreCase("SIM")) {
 			controle++;
 		}
 		
