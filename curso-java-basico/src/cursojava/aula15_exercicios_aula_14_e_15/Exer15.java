@@ -18,8 +18,7 @@ public class Exer15 {
 		 */
 		
 		Scanner t = new Scanner(System.in);
-		System.out
-				.println(" Informe os três lados de um triângulo para saber se é: equilátero, isósceles ou escaleno. ");
+		System.out.println(" Informe os três lados de um triângulo para saber se é: equilátero, isósceles ou escaleno. ");
 		System.out.println("Primeiro lado: ");
 		double lado1 = t.nextDouble();
 		System.out.println("Segundo lado: ");
