@@ -6,11 +6,11 @@ public class operadoresAritmeticos {
 		
 		int resultado = 1 + 2;
 		System.out.println(resultado);
-		resultado = resultado - 1; // resultado =- 1
+		resultado = resultado - 1; // resultado -= 1
 		System.out.println(resultado);
-		resultado = resultado * 1; // resultado =* 1
+		resultado = resultado * 1; // resultado *= 1
 		System.out.println(resultado);
-		resultado = resultado /2; // resultado =/ 2
+		resultado = resultado /2; // resultado /= 2
 		System.out.println(resultado);
 		resultado = resultado + 8;
 		System.out.println(resultado);
